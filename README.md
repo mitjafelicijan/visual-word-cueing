@@ -22,8 +22,8 @@ python3 convert.py --help
 
 # Convert and visually cue text file.
 python3 convert.py \
-	--input-file=books/kafka-metamorphosis.txt \
-	--output-file=kafka-metamorphosis.html \
+	--input-file=books/franz-kafka-metamorphosis.txt \
+	--output-file=franz-kafka-metamorphosis.html \
 	--title="Metamorphosis" \
 	--author="Franz Kafka"
 ```

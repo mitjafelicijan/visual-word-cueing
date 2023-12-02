@@ -6,6 +6,8 @@ Visual cueing in this context means splitting words and highlighting first part
 of the words. This makes reading large blocks of text much easier. With this
 technique you can also greatly improve reading speed.
 
+Note: Check https://standardebooks.org/ for really quality e-books.
+
 ## Usage
 
 This script is written in vanilla Python 3 and no other external dependencies

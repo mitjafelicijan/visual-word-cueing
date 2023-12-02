@@ -20,7 +20,7 @@ python3 convert.py --help
 
 # Convert and visually cue text file.
 python3 convert.py \
-	--input-file=kafka-metamorphosis.txt \
+	--input-file=books/kafka-metamorphosis.txt \
 	--output-file=kafka-metamorphosis.html \
 	--title="Metamorphosis" \
 	--author="Franz Kafka"

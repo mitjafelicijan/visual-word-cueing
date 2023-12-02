@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>#TITLE# - #AUTHOR#</title>
+		
+		<style>
+		 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+		 
+		 body {
+			 background: #161111;
+			 font-family: 'Inter', sans-serif;
+			 font-size: 26px;
+			 padding: 3em;
+			 margin: 0 auto;
+			 max-width: 1000px;
+			 color: white;
+		 }
+
+		 header {
+			 text-align: center;
+		 }
+
+		 header .stats {
+			 font-size: large;
+			 color: gray;
+		 }
+
+		 hr {
+			 margin-block-start: 3em;
+			 margin-block-end: 3em;
+		 }
+
+		 main {
+			 color: darkgray;
+			 font-weight: 400;
+		 }
+		 
+		 main b {
+			 font-weight: 500;
+			 color: white;
+		 }
+
+		 main p {
+			 text-indent: 3em;
+			 text-align: justify;
+			 position: relative;
+		 }
+
+		 main p idx {
+			 position: absolute;
+			 left: -3em;
+			 color: #444;
+		 }
+
+		 @media only screen and (max-width: 600px) {
+			 body {
+				 font-size: larger;
+				 padding: 1em;
+			 }
+		 }	
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<h1>#TITLE#</h1>
+			<p>by<p>
+			<p>#AUTHOR#<p>
+			<p class="stats">#STATS#<p>
+			<p class="stats">#READ_TIME#<p>
+		</header>
+		
+		<hr>
+
+		<main>
+			#CONTENT#
+		</main>
+	</body>
+</html>

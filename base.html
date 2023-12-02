@@ -9,13 +9,22 @@
 		
 		<style>
 		 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+		 :root {
+			 --background: transparent;
+			 --word-head-color: black;
+			 --word-rest-color: gray;
+			 --paragraph-num-color: darkgray;
+		 }
 		 
 		 body {
+			 background: var(--background);
 			 font-family: 'Inter', sans-serif;
 			 font-size: 26px;
 			 padding: 3em;
 			 margin: 0 auto;
 			 max-width: 1000px;
+			 color: initial;
 		 }
 
 		 header {
@@ -32,13 +41,13 @@
 		 }
 
 		 main {
-			 color: darkgray;
+			 color: var(--word-rest-color);
 			 font-weight: 400;
 		 }
 		 
 		 main b {
 			 font-weight: 500;
-			 color: initial;
+			 color: var(--word-head-color);
 		 }
 
 		 main p {
@@ -50,7 +59,7 @@
 		 main p idx {
 			 position: absolute;
 			 left: -3em;
-			 color: #444;
+			 color: var(--paragraph-num-color);
 		 }
 
 		 @media only screen and (max-width: 600px) {
